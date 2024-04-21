@@ -1,8 +1,6 @@
-$primary-color: #00ffa2;
+$primary-color: #ffd700;
 
 @import 'animate.css';
-@import '~loaders.css/src/animations/pacman.scss';
-
 
 @font-face{
 	font-family: "Helvetica Neue";
@@ -20,23 +18,9 @@ $primary-color: #00ffa2;
 }
 
 input,
-textarea{
-  font-family: 'Coolvetic';
+textArea{
+  font-family: "Coolvetic";
 }
 
 
-.loader-active {
-	display: block;
-	position: absolutre;
-	left: 0;
-	right: 0;
-	margin: auto;
-	top: 0;
-	bottom: 0;
-	width: 50px;
-	height: 50px;
-	animation: fadeOut 1s 1s;
-  	animation-fill-mode: forwards;
 
-  }
-  
